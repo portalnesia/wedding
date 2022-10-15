@@ -1,0 +1,55 @@
+{
+    "landing":{
+        "background":"/images/wedding.jpg"
+    },
+    "bridegroom":[{
+        "name":"Man Name",
+        "fullname":"Full Man Name, S.Teh",
+        "image":"/images/male.png",
+        "text":"Putra Pertama dari pasangan",
+        "parents":[{
+            "name":"Bapak bapak"
+        },{
+            "name":"Ibu ibu"
+        }]
+    },{
+        "name":"Female Name",
+        "fullname":"Full Female Name, S.Jeruk",
+        "image":"/images/female.png",
+        "text":"Putri Terakhir dari pasangan",
+        "parents":[{
+            "name":"Father father"
+        },{
+            "name":"Mother mother"
+        }]
+    }],
+    "invitation":{
+        "text":"Assalamu'alaikum Warahmatullahi Wabarakatuh\nTanpa mengurangi rasa hormat. Kami bermaksud mengundang Bapak/Ibu/Sodara/i serta kerabat sekalian untuk menghadiri acara pernikahan kami. Merupakan suatu kehormatan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu kepada kedua mempelai.\nDemikian undangan ini kami sampaikan. Kami memohon doa restu agar kami menjadi keluarga sakinah mawadah warrohmah. Atas perhatiannya, kami ucapkan terimakasih.\nWassalamu'alaikum Warahmatullahi Wabarakatuh",
+        "background": "/images/merried.jpg",
+        "events":[{
+            "name":"Akad",
+            "place":{
+                "name":"Rumah",
+                "latitude":"",
+                "longitude":""
+            },
+            "from":"2022-12-12T11:00:00+0700"
+        },{
+            "name":"Resepsi",
+            "place": {
+                "name":"Gedung",
+                "latitude":"",
+                "longitude":""
+            },
+            "from":"2022-12-13T09:00:00+0700",
+            "to":"2022-12-13T14:00:00+0700"
+        }],
+        "gallery":[{
+            "src":"/images/wedding.jpg",
+            "caption":"This is caption for wedding.jpg"
+        },{
+            "src":"/images/merried.jpg",
+            "caption":"This is caption for merried.jpg"
+        }]
+    }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "wedding-template-2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "wedding-template-2",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "dev": "gatsby develop",
+    "graphql": "cross-env GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/portalnesia/wedding.git"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@fancyapps/fancybox": "^3.5.7",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.9",
+    "animate.css": "^4.1.1",
+    "dayjs": "^1.11.5",
+    "gatsby": "^4.24.4",
+    "gatsby-plugin-emotion": "^7.24.0",
+    "gatsby-plugin-google-analytics": "^4.24.0",
+    "gatsby-plugin-manifest": "^4.24.0",
+    "gatsby-plugin-material-ui": "^4.0.2",
+    "gatsby-source-filesystem": "^4.24.0",
+    "gatsby-transformer-json": "^4.24.0",
+    "google-map-react": "^2.2.0",
+    "jquery": "^3.6.1",
+    "react": "^18.1.0",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-countdown": "^2.3.2",
+    "react-dom": "^18.1.0",
+    "react-helmet": "^6.1.0",
+    "react-lazy-load-image-component": "^1.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.45",
+    "@types/react": "^18.0.21",
+    "@types/react-animate-on-scroll": "^2.1.5",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-helmet": "^6.1.5",
+    "cross-env": "^7.0.3",
+    "typescript": "^4.8.3"
+  }
+}
